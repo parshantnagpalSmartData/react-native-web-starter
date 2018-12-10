@@ -1,13 +1,13 @@
 import React from 'react';
 import { AppRegistry, StyleSheet, Text, View } from 'react-native';
-
+import AppData from './src';
 class App extends React.Component {
   
   render() {
-    alert("123")
     return (
       <View style={styles.box}>
         <Text style={styles.text}>Hello, world!</Text>
+        <AppData/>  
       </View>
     );
   }
